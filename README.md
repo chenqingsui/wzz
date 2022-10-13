@@ -4,7 +4,7 @@
 
 ## 图片
 
-预览[KuroNagishiro的个人导航页](https://kuronagishiro.github.io/kuro/) 
+预览[个人导航页](https://chenqingsui.github.io/kuro/) 
 
 ## 来源    
   
