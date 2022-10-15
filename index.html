@@ -39,8 +39,14 @@ if ($set['autokeywords'] == 1) {
   <script src="js/xd.js"></script> 
   <style>
     #bgc{
-      background-color: #333;
-     margin-left: 200px;
+      
+    
+      
+      background-color: #333 rgba(255, 255, 255, 0.25);
+     margin-left: 155px;
+     margin-top: 18px;
+     cursor: pointer;
+     color: black;
       
     }
   </style>
@@ -49,15 +55,14 @@ if ($set['autokeywords'] == 1) {
  <body> 
   <!--加载动画-->
   <!--<script src="js/loading.js"></script>-->
-<div id="bgc">
-  <button id="button"></button>
+
 
   <div id="menu">
 	  
     <i></i>
    </div>
-    <div ><button id="button">切换背景</button></div>
-    <div id="11">123</div>
+    <div id="bgc"><div id="button">悬停背景切换</div></div>
+    
    <div class="list closed"> 
     <ul>
    <li class="title"><i class="iconfont icon-huo"></i> 常用</li>
@@ -203,7 +208,7 @@ if ($set['autokeywords'] == 1) {
      <input type="checkbox" id="set-search-blank" class="bubble-3" autocomplete="off" />
     </div>
    </div> 
-  </div>
+  
 
      <script>
       WIDGET = {
@@ -248,7 +253,7 @@ if ($set['autokeywords'] == 1) {
 // var bgc = document.getElementById("bgc");
     
     console.log(button);
-    bgc.addEventListener("click", function () {
+    bgc.addEventListener("mouseenter", function () {
       var randomBgIndex = Math.round(Math.random() * 3294);
 var imgUrl1 = "https://steamuserimages-a.akamaihd.net/ugc/";
 var imgUrl2 = arr[randomBgIndex];
